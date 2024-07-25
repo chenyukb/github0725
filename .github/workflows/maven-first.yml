@@ -10,3 +10,5 @@ jobs:
         run: |
           ls -al
           echo abcd
+      - name: shell2
+        run: echo abcd
