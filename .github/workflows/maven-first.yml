@@ -7,4 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: shell插件
-        run: ls -l
+        run: |
+          ls -al
+          echo abcd
