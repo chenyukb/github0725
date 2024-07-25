@@ -1,0 +1,10 @@
+on: workflow_dispatch
+name: 这是我的workflow的名字
+run-name: 这是运行时的名字
+jobs: 
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shell插件
+        run: ls -l
