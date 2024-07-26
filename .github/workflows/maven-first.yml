@@ -9,6 +9,10 @@ jobs:
       - name: shell插件
         run: |
           ls -al
-          echo abcd
+          echo ${{github.repository}}
+          echo ${{github.ref}}
+          echo ${{github.token}}
+          echo ${{github.server-url}}
+          echo ${{github.server_url}}
       - name: shell2
         run: echo abcd
