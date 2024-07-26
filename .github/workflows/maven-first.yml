@@ -1,4 +1,8 @@
-on: workflow_dispatch
+on:
+  push: 
+    branches: 'dev'
+  workflow_dispatch: 
+
 name: pipeline
 run-name: 这是运行时的名字
 jobs: 
