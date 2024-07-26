@@ -1,5 +1,5 @@
 on: workflow_dispatch
-name: 这是我的workflow的名字
+name: pipeline
 run-name: 这是运行时的名字
 jobs: 
   test:
