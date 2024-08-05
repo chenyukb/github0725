@@ -1,7 +1,7 @@
 on: 
-  workflow_dispatch：
   push:
     branches: xyz
+  workflow_dispatch:
 name: pipeline
 run-name: 这是运行时的名字
 jobs: 
